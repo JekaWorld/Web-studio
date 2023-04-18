@@ -1,11 +1,13 @@
-.header_logo1 {
+span {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
     color: #000000;
 }
 
-.header_logo1 span {
-    color: #2196F3;
+button {
+    background-color: #2196f3;
 }
-
-.header_link {}
-
-.header_link a {}

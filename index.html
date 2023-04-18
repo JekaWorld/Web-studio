@@ -6,83 +6,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio_UA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h2>WebStudio</h2>
-        <nav>
-            <ul>
-                <li><a href="/">Студія</a></li>
-                <li><a href="/">Портфоліо</a></li>
-                <li><a href="/">Контакти</a></li>
+    <header class="header">
+        <h2 class="header__title"><span>Web</span> Studio</h2>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a href="#" class="header__link">Студія</a></li>
+                <li class="header__item"><a href="./portfolio.html" class="header__link">Портфоліо</a></li>
+                <li class="header__item"><a href="#" class="header__link">Контакти</a></li>
             </ul>
         </nav>
-        <div>
-            <a href="/">info@devstudio.com</a>
-            <a href="/">+38 096 111 11 11</a>
+        <div class="header__contact">
+            <ul class="header__contact-list">
+                <li class="header__contact-item"><a href="#" class="header__contact-link">info@devstudio.com</a></li>
+                <li class="header__contact-item"><a href="#" class="header__contact-link">+38 096 111 11 11</a></li>
+            </ul>
         </div>
     </header>
-    <section class="prologue">
-        <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br> ВАШОГО БІЗНЕСУ</h1>
-        <button>
-            Замовити послугу
-        </button>
+    <section class="main-section">
+        <h1 class="main-section__title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <button class="main-section__button"> Замовити послугу </button>
     </section>
-    <section class="main">
-        <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Voluptatem veritatis <br> exercitationem velit
-            magnam iure.</p>
-        <section>
-            <h4>ПУНКТУАЛЬНІСТЬ</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Voluptatem veritatis <br> exercitationem
-                velit magnam iure.</p>
+    <section class="details-section">
+        <h4 class="details-section__title">УВАГА ДО ДЕТАЛЕЙ</h4>
+        <p class="details-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptatem
+            veritatis exercitationem velit magnam iure.</p>
+        <section class="details-section__subsection">
+            <h4 class="details-section__title">ПУНКТУАЛЬНІСТЬ</h4>
+            <p class="details-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptatem
+                veritatis exercitationem velit magnam iure.</p>
         </section>
-        <section>
-            <h4>ПЛАНУВАННЯ</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Voluptatem veritatis <br> exercitationem
-                velit magnam iure.</p>
+        <section class="details-section__subsection">
+            <h4 class="details-section__title">ПЛАНУВАННЯ</h4>
+            <p class="details-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptatem
+                veritatis exercitationem velit magnam iure.</p>
         </section>
-        <section>
-            <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Voluptatem veritatis <br> exercitationem
-                velit magnam iure.</p>
+        <section class="details-section__subsection">
+            <h4 class="details-section__title">СУЧАСНІ ТЕХНОЛОГІЇ</h4>
+            <p class="details-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptatem
+                veritatis exercitationem velit magnam iure.</p>
         </section>
     </section>
-    <section class="doing">
-        <h2>Чим ми займаємося</h2>
-        <img src="./img/keyboard.svg" alt="перше фото"> <img src="./img/color.svg" alt="третье фото"> <img
-            src="./img/phone.svg" alt="друге фото">
+    <section class="doing-section">
+        <h2 class="doing-section__title">Чим ми займаємося</h2>
+        <img src="./img/keyboard.svg" alt="перше фото">
+        <img src="./img/color.svg" alt="третье фото">
+        <img src="./img/phone.svg" alt="друге фото">
     </section>
     <section class="our comand">
-        <h2>Наша команда</h2>
-        <div>
-            <img src="./icons/man.svg" alt="">
-            <h4>Ігор Дем’яненко</h4>
-            <p>Product Designer</p>
+        <h2 class="comand-title">Наша команда</h2>
+        <div class="comand-member">
+            <img src="./icons/man.svg" alt="" class="comand-member-img">
+            <h4 class="comand-member-name">Ігор Дем’яненко</h4>
+            <p class="comand-member-position">Product Designer</p>
         </div>
-        <div>
-            <img src="./icons/woman.svg" alt="">
-            <h4>Ольга Репіна</h4>
-            <p>Frontend Developer</p>
+        <div class="comand-member">
+            <img src="./icons/woman.svg" alt="" class="comand-member-img">
+            <h4 class="comand-member-name">Ольга Репіна</h4>
+            <p class="comand-member-position">Frontend Developer</p>
         </div>
-        <div>
-            <img src="./icons/mane.svg" alt="">
-            <h4>Микола Тарасов</h4>
-            <p>Marketing</p>
+        <div class="comand-member">
+            <img src="./icons/mane.svg" alt="" class="comand-member-img">
+            <h4 class="comand-member-name">Микола Тарасов</h4>
+            <p class="comand-member-position">Marketing</p>
         </div>
-        <div>
-            <img src="./icons/mans.svg" alt="">
-            <h4>Михайло Єрмаков</h4>
-            <p>UI Designer</p>
+        <div class="comand-member">
+            <img src="./icons/mans.svg" alt="" class="comand-member-img">
+            <h4 class="comand-member-name">Михайло Єрмаков</h4>
+            <p class="comand-member-position">UI Designer</p>
         </div>
     </section>
     <section class="contacs">
-        <h2>WebStudio</h2>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <a href="mail:info@example.com">info@example.com</a>
-        <a href="tell:+380991111111">+38 099 111 11 11</a>
+        <h2 class="header__title"><span>Web</span>Studio</h2>
+        <p class="contacts-address">м. Київ, пр-т Лесі Українки, 26</p>
+        <a href="mail:info@example.com" class="contacts-email">info@example.com</a>
+        <a href="tell:+380991111111" class="contacts-phone">+38 099 111 11 11</a>
     </section>
 
 </body>
