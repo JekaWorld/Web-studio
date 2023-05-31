@@ -5,102 +5,170 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Studio_UA</title>
+    <title>WebStudio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png" />
+    <link rel="manifest" href="./icons/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./node_modules/animate.css/" />
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
     <header>
-        <a class="link" href="./index.html">
-            <h2 class="header__title"><span>Web</span> Studio</h2>
-        </a>
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__item"><a href="#" class="header__link">Студія</a></li>
-                <li class="header__item"><a href="./portfolio.html" class="header__link">Портфоліо</a></li>
-                <li class="header__item"><a href="#" class="header__link">Контакти</a></li>
-            </ul>
-        </nav>
-        <div class="div_link">
-            <address class="header__contact-list">
-                <li class="link_email"><a href="mailto:info@example.com" class="contacts-first">info@example.com</a>
-                </li>
-                <li class="link_phone"><a href="tel:+380991111111" class="contacts-first">+38 099 111 11 11</a></li>
-            </address>
+        <div class="container">
+            <div class="header_block">
+                <div class="header_left">
+                    <a class="header_link" href="./index.html">
+                        <h2 class="logo"><span>Web</span>Studio</h2>
+                    </a>
+                    <nav>
+                        <ul class="menu_links">
+                            <li class="header_link">
+                                <a href="/" class="navigation">Студія</a>
+                            </li>
+                            <li class="header_link">
+                                <a href="./portfolio.html" class="navigation">Портфоліо</a>
+                            </li>
+                            <li class="header_link">
+                                <a href="/" class="navigation">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-link">
+                    <a href="mailto:" class="inf">
+                        <img class="vector" src="./icons/envelope.svg" alt="envelope" />
+                        info@devstudio.com</a>
+
+                    <a href="tel:+380961111111" class="inf">
+                        <img class="vector" src="./icons/Vector.svg" alt="vector" /> +38
+                        096 111 11 11</a>
+                </div>
+            </div>
         </div>
+        <hr />
     </header>
     <main>
-        <section class="main-section">
-            <h1 class="main-section__title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button class="main-section__button"> Замовити послугу </button>
+        <section class="promo">
+            <div class="overlay">
+                <div class="container">
+                    <h1 class="title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />ВАШОГО БІЗНЕСУ</h1>
+                    <button class="follow_the_link">Замовити послугу</button>
+                </div>
+            </div>
         </section>
-        <section class="details-section">
-            <h4 class="details-section__title">УВАГА ДО ДЕТАЛЕЙ</h4>
-            <p class="details-section__paragraph">Ідейні міркування, і навіть початок повсякденної роботи з формування
-                позиції.</p>
-            <section class="details-section__subsection">
-                <h4 class="details-section__title">ПУНКТУАЛЬНІСТЬ</h4>
-                <p class="details-section__paragraph">Завдання організації, особливо рамки і місце навчання кадрів тягне
-                    у себе.</p>
-            </section>
-            <section class="details-section__subsection">
-                <h4 class="details-section__title">ПЛАНУВАННЯ</h4>
-                <p class="details-section__paragraph">Так само консультація з широким активом значною мірою зумовлює.
-                </p>
-            </section>
-            <section class="details-section__subsection">
-                <h4 class="details-section__title">СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-                <p class="details-section__paragraph">Значимість цих проблем настільки очевидна, що реалізація планових
-                    завдань.</p>
-            </section>
-        </section>
-        <section class="doing-section">
-            <h2 class="doing-section__title">Чим ми займаємося</h2>
-            <img src="./img/keyboard.svg" alt="перше фото">
-            <img src="./img/color.svg" alt="третье фото">
-            <img src="./img/phone.svg" alt="друге фото">
-        </section>
-        <section class="our comand">
-            <h2 class="doing-section__title">Наша команда</h2>
-            <ul class="comand-member">
-                <img src="./icons/man.svg" alt="" class="comand-member-img">
-                <h4 class="comand-member-name">Ігор Дем’яненко</h4>
-                <p class="comand-member-position">Product Designer</p>
-            </ul>
-            <ul class="comand-member">
-                <img src="./icons/woman.svg" alt="" class="comand-member-img">
-                <h4 class="comand-member-name">Ольга Репіна</h4>
-                <p class="comand-member-position">Frontend Developer</p>
-            </ul>
-            <ul class="comand-member">
-                <img src="./icons/mane.svg" alt="" class="comand-member-img">
-                <h4 class="comand-member-name">Микола Тарасов</h4>
-                <p class="comand-member-position">Marketing</p>
-            </ul>
-            <ul class="comand-member">
-                <img src="./icons/mans.svg" alt="" class="comand-member-img">
-                <h4 class="comand-member-name">Михайло Єрмаков</h4>
-                <p class="comand-member-position">UI Designer</p>
+        <section class="about">
+            <ul class="list">
+                <li>
+                    <img class="list_icon" src="./icons/Group 1.png" alt="antenna" />
+                    <h5 class="h5list">УВАГА ДО ДЕТАЛЕЙ</h5>
+                    <p class="information">Ідейні міркування, і навіть початок <br />повсякденної роботи з формування
+                        <br />позиції.
+                    </p>
+                </li>
+                <li>
+                    <img class="list_icon" src="./icons/Group 2.png" alt="clock" />
+                    <h5 class="h5list">ПУНКТУАЛЬНІСТЬ</h5>
+                    <p class="information">
+                        Завдання організації, особливо рамки <br />
+                        і місце навчання кадрів тягне у себе.
+                    </p>
+                </li>
+                <li>
+                    <img class="list_icon" src="./icons/Group 3.png" alt="diagram" />
+                    <h5 class="h5list">ПЛАНУВАННЯ</h5>
+                    <p class="information">
+                        Так само консультація з широким <br />
+                        активом значною мірою зумовлює.
+                    </p>
+                </li>
+                <li>
+                    <img class="list_icon" src="./icons/Group 4.png" alt="astronaut" />
+                    <h5 class="h5list">СУЧАСНІ ТЕХНОЛОГІЇ</h5>
+                    <p class="information">
+                        Значимість цих проблем настільки <br />
+                        очевидна, що реалізація планових <br />
+                        завдань.
+                    </p>
+                </li>
             </ul>
         </section>
-        <footer class="contacs">
-            <a class="link" href="./index.html">
-                <h2 class="header__title_end"><span>Web</span> Studio</h2>
-            </a>
-            <address>
-                <p class="contacts-address">м. Київ, пр-т Лесі Українки, 26</p>
-                <a href="mailto:info@example.com" class="contacts-end">info@example.com</a>
-                <a href="tel:+380991111111" class="contacts-end">+38 099 111 11 11</a>
-            </address>
-        </footer>
+        <section class="work">
+            <h2 class="type-of-work">Чим ми займаємося</h2>
+            <div class="container">
+                <ul class="images">
+                    <li>
+                        <img class="img2" src="./img/keyboard.svg" alt="computer" />
+                    </li>
+                    <li>
+                        <img class="img2" src="./img/color.svg" alt="telephone" />
+                    </li>
+                    <li>
+                        <img class="img2" src="./img/phone.svg" alt="tablet" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="team">
+            <h2 class="team_text">Наша команда</h2>
+            <ul class="members">
+                <li class="team-card animate__animated animate__jackInTheBox animate__slow animate__delay-2s">
+                    <div class="block">
+                        <img class="img" src="./icons/man.svg" alt="Igor" />
+                    </div>
+                    <h3 class="member">Ігор Дем'яненко</h3>
+                    <h4 class="role">Product Designer</h4>
+                </li>
+                <li class="team-card animate__animated animate__jackInTheBox animate__slow animate__delay-3s">
+                    <div class="block">
+                        <img class="img" src="./icons/woman.svg" alt="Olga" />
+                    </div>
+                    <h3 class="member">Ольга Рєпіна</h3>
+                    <h4 class="role">Frontend Developer</h4>
+                </li>
+                <li class="team-card animate__animated animate__jackInTheBox animate__slow animate__delay-4s">
+                    <div class="block">
+                        <img class="img" src="./icons/mand.svg" alt="Mykola" />
+                    </div>
+                    <h3 class="member">Микола Тарасов</h3>
+                    <h4 class="role">Marketing</h4>
+                </li>
+                <li class="team-card animate__animated animate__jackInTheBox animate__slow animate__delay-5s">
+                    <div class="block">
+                        <img class="img" src="./icons/mans.svg" alt="Misha" />
+                    </div>
+                    <h3 class="member">Михайло Єрмаков</h3>
+                    <h4 class="role">UI Designer</h4>
+                </li>
+            </ul>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-list">
+                <li class="loc">
+                    <h2 class="logo2"><span>Web</span>Studio</h2>
+                </li>
+                <li class="loc">
+                    <p class="loc_address">м. Київ, пр-т Лесі Українки, 26</p>
+                </li>
+                <li class="loc2">
+                    <a href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li class="loc2">
+                    <a href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>

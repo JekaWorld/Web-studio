@@ -2,126 +2,153 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png" />
+    <link rel="manifest" href="./icons/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="./portfolio.css" />
 </head>
 
 <body>
     <header>
-        <h2><span>Web</span>Studio</h2>
-        <nav>
-            <ul>
-                <li><a href="#">Студія</a></li>
-                <li><a href="#">Портфоліо</a></li>
-                <li><a href="#">Контакти</a></li>
-            </ul>
-        </nav>
-        <div>
-            <a href="mailto:info@example.com">info@example.com</a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <div class="container">
+            <div class="header_block">
+                <div class="header_left">
+                    <h2 class="logo"><span>Web</span>Studio</h2>
+                    <nav>
+                        <ul class="menu_links">
+                            <li class="header_link">
+                                <a href="./index.html" class="navigation">Студія</a>
+                            </li>
+                            <li class="header_link">
+                                <a href="./portfolio.html" class="navigation">Портфоліо</a>
+                            </li>
+                            <li class="header_link">
+                                <a href="/" class="navigation">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-link">
+                    <a href="mailto:" class="inf">
+                        <img class="vector" src="./icons/envelope.svg" alt="envelope" />
+                        info@devstudio.com</a>
+                    <a href="tel:+380961111111" class="inf">
+                        <img class="vector" src="./icons/Vector.svg" alt="vector" /> +38
+                        096 111 11 11</a>
+                </div>
+            </div>
         </div>
     </header>
+    <hr />
     <main>
-        <section>
-            <button>Усі</button>
-            <button>Веб-сайти</button>
-            <button>Додатки</button>
-            <button>Дизайн</button>
-            <button>Маркетинг</button>
-        </section>
-        <section>
-            <div>
-                <img src="./img/technokrjak.svg" alt="technokrjak">
-                <ul>
-                    <li>
-                        <h3>Технокряк</h3>
-                    </li>
-                    <li>Веб-сайт</li>
-                </ul>
-            </div>
-            <div>
-                <img src="./img/basketball.svg" alt="new orlean vs golden star">
-                <ul>
-                    <li>
-                        <h3>Постер New Orlean vs Golden Star</h3>
-                    </li>
-                    <li>Дизайн</li>
-                </ul>
-            </div>
-            <div>
-                <img src="./img/Fish.svg" alt="Fish restaurant">
-                <ul>
-                    <li>
-                        <h3>Ресторан Seafood</h3>
-                    </li>
-                    <li>Додаток</li>
-                </ul>
-            </div>
-            <div>
-                <img src="./img/earphones.svg" alt="earphones">
-                <ul>
-                    <li>
-                        <h3>Проєкт Prime</h3>
-                    </li>
-                    <li>Маркетинг</li>
-                </ul>
-            </div>
-            <div>
-                <img src="./img/box.svg" alt="box">
-                <ul>
-                    <li>
-                        <h3>Проєкт Boxes</h3>
-                    </li>
-                    <li>Додаток</li>
-                </ul>
-            </div>
-            <div>
-                <img src="./img/monitor.svg" alt="monitor">
-                <ul>
-                    <li>
-                        <h3>Inspiration has no Borders</h3>
-                    </li>
-                    <li>Веб-сайт</li>
-                </ul>
-            </div>
-            <div>
-                <img src="./img/book.svg" alt="book">
-                <ul>
-                    <li>
-                        <h3>Видання Limited Edition</h3>
-                    </li>
-                    <li>Дизайн</li>
-                </ul>
-            </div>
-            <div>
-                <img src="./img/lab.svg" alt="lab">
-                <ul>
-                    <li>
-                        <h3>Проєкт LAB</h3>
-                    </li>
-                    <li>Маркетинг</li>
-                </ul>
-            </div>
-            <div>
-                <img src="./img/laptop.svg" alt="laptop">
-                <ul>
-                    <li>
-                        <h3>Growing Business</h3>
-                    </li>
-                    <li>Додаток</li>
-                </ul>
+        <section class="btns">
+            <div class="buttons">
+                <button class="button">Усі</button>
+                <button class="button">Веб-сайти</button>
+                <button class="button">Додатки</button>
+                <button class="button">Дизайн</button>
+                <button class="button">Маркетинг</button>
             </div>
         </section>
-        <section>
-            <h2>WebStudio</h2>
-            <address>м. Київ, пр-т Лесі Українки, 26</address>
-            <address> info@example.com </address>
-            <address>+38 099 111 11 11</address>
+        <section class="cards">
+            <div class="container">
+                <ul class="cards">
+                    <li class="card">
+                        <div class="block">
+                            <img src="./img/technokrjak.svg" alt="Технокряк" class="img" />
+                        </div>
+                        <h4 class="h4">Технокряк</h4>
+                        <p class="paragraph_text">Веб-сайт</p>
+                    </li>
+                    <li class="card">
+                        <div class="block">
+                            <img src="./img/basketball.svg" alt="Постер New Orlean vs Golden Star" class="img" />
+                        </div>
+                        <h4 class="h4">Постер New Orlean vs Golden Star</h4>
+                        <p class="paragraph_text">Дизайн</p>
+                    </li>
+                    <li class="card">
+                        <div class="block">
+                            <img src="./img/Fish.svg" alt="Ресторан Seafood" class="img" />
+                        </div>
+                        <h4 class="h4">Ресторан Seafood</h4>
+                        <p class="paragraph_text">Додаток</p>
+                    </li>
+                    <li class="card">
+                        <div class="block">
+                            <img src="./img/earphones.svg" alt="Проєкт Prime" class="img" />
+                        </div>
+                        <h4 class="h4">Проєкт Prime</h4>
+                        <p>Маркетинг</p>
+                    </li>
+                    <li class="card">
+                        <div class="block">
+                            <img src="./img/box.svg" alt="Проєкт Boxes" class="img" />
+                        </div>
+                        <h4 class="h4">Проєкт Boxes</h4>
+                        <p class="paragraph_text">Додаток</p>
+                    </li>
+                    <li class="card">
+                        <div class="block">
+                            <img src="./img/monitor.svg" alt="Inspiration has no Borders" class="img" />
+                        </div>
+                        <h4 class="h4">Inspiration has no Borders</h4>
+                        <p class="paragraph_text">Веб-сайт</p>
+                    </li>
+                    <li class="card">
+                        <div class="block">
+                            <img src="./img/book.svg" alt="Видання Limited Edition" class="img" />
+                        </div>
+                        <h4 class="h4">Видання Limited Edition</h4>
+                        <p class="paragraph_text">Дизайн</p>
+                    </li>
+                    <li class="card">
+                        <div class="block">
+                            <img src="./img/lab.svg" alt="Проєкт LAB" class="img" />
+                        </div>
+                        <h4 class="h4">Проєкт LAB</h4>
+                        <p class="paragraph_text">Маркетинг</p>
+                    </li>
+                    <li class="card">
+                        <div class="block">
+                            <img src="./img/laptop.svg" alt="Growing Business" class="img" />
+                        </div>
+                        <h4 class="h4">Growing Business</h4>
+                        <p class="paragraph_text">Додаток</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-list">
+                <li class="loc">
+                    <h2 class="logo2"><span>Web</span>Studio</h2>
+                </li>
+                <li class="loc">
+                    <p class="loc_address">м. Київ, пр-т Лесі Українки, 26</p>
+                </li>
+                <li class="loc2">
+                    <a href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li class="loc2">
+                    <a href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
