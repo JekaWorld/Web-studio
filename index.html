@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./node_modules/animate.css/" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./animate.css">
 </head>
 
 <body>
@@ -117,31 +118,31 @@
                 </ul>
             </div>
         </section>
-        <section class="team">
+        <section class="team wow">
             <h2 class="team_text">Наша команда</h2>
             <ul class="members">
-                <li class="team-card animate__animated animate__jackInTheBox animate__slow animate__delay-2s">
+                <li class="team-card wow animate__animated animate__fadeInLeft animate__delay-2s">
                     <div class="block">
                         <img class="img" src="./icons/man.svg" alt="Igor" />
                     </div>
                     <h3 class="member">Ігор Дем'яненко</h3>
                     <h4 class="role">Product Designer</h4>
                 </li>
-                <li class="team-card animate__animated animate__jackInTheBox animate__slow animate__delay-3s">
+                <li class="team-card wow animate__animated animate__fadeInLeft animate__delay-2s">
                     <div class="block">
                         <img class="img" src="./icons/woman.svg" alt="Olga" />
                     </div>
                     <h3 class="member">Ольга Рєпіна</h3>
                     <h4 class="role">Frontend Developer</h4>
                 </li>
-                <li class="team-card animate__animated animate__jackInTheBox animate__slow animate__delay-4s">
+                <li class="team-card wow animate__animated animate__fadeInLeft animate__delay-2s">
                     <div class="block">
                         <img class="img" src="./icons/mand.svg" alt="Mykola" />
                     </div>
                     <h3 class="member">Микола Тарасов</h3>
                     <h4 class="role">Marketing</h4>
                 </li>
-                <li class="team-card animate__animated animate__jackInTheBox animate__slow animate__delay-5s">
+                <li class="team-card wow animate__animated animate__fadeInLeft animate__delay-2s">
                     <div class="block">
                         <img class="img" src="./icons/mans.svg" alt="Misha" />
                     </div>
@@ -169,6 +170,12 @@
             </ul>
         </div>
     </footer>
+
+
+    <script src="./js/wow.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
 </body>
 
 </html>

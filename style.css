@@ -1,6 +1,8 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    animation: pulse 2s;
+
 }
 
 .header_block {
@@ -114,6 +116,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover
+}
+
+.promo {
+    animation: fadeInUp 2s;
 }
 
 .follow_the_link {
