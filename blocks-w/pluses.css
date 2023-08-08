@@ -1,0 +1,44 @@
+.list {
+    list-style-type: none;
+    color: #212121;
+}
+
+.information {
+    color: #757575;
+}
+
+.h5list {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding: 0;
+    margin: auto;
+    width: 1170px;
+}
+
+.about {
+    padding: 90px 0;
+}
+
+.information {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}

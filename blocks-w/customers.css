@@ -1,0 +1,27 @@
+.reg_customer ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+}
+.reg_customer {
+        margin-bottom: 79px;
+}
+.reg_customer h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+}
+
+.list_customer {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin-bottom: 0;
+}
