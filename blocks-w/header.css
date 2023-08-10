@@ -80,6 +80,8 @@
 
 .header {
     position: fixed;
+    z-index: 20;
     width: 100%;
-    background-color: #ffffff;
+    top: 0;
+    background-color: #fff;
 }

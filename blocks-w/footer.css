@@ -62,7 +62,7 @@
 .footer_links {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 45px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding: 12px;
@@ -77,3 +77,25 @@
     padding: 0;
 }
 
+.footer .container {
+    display: flex;
+    gap: 70px;
+}
+
+.join_links a {
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join_links a:hover path {
+    fill: #ffffff;
+}
+
+.join_links a:hover {
+    background: #2196f3;
+}
