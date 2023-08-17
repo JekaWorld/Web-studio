@@ -655,16 +655,45 @@
             <form class="modal-form">
                 <p class="modal_title">Залиште свої дані, ми вам передзвонимо</p>
                 <div class="modal_blocks">
-                    <div class="modal_block_label"><label class="modal_label" for="text">Ім'я</label></div>
-                    <div class="modal_block_input"><i class="fa-solid fa-user"></i>
-                        <input class="modal_input" type="text" name="text">
+                    <div class="modal_block_label">
+                        <label class="modal_label" for="text">Ім'я</label>
+                    </div>
+                    <div class="modal_block_input">
+                        <i class="fa-solid fa-user"></i>
+                        <input class="modal_input" type="text" name="text" />
                     </div>
                 </div>
-                <div class="modal_blocks"></div>
-                <div class="modal_blocks"></div>
-                <div class="modal_blocks"></div>
-                <div class="modal_input_check"></div>
-                <button class="modal_btn"></button>
+                <div class="modal_blocks">
+                    <div class="modal_block_label">
+                        <label class="modal_label" for="text">Телефон</label>
+                    </div>
+                    <div class="modal_block_input">
+                        <i class="fa-solid fa-phone"></i>
+                        <input class="modal_input" type="tel" name="tel" />
+                    </div>
+                </div>
+                <div class="modal_blocks">
+                    <div class="modal_block_label">
+                        <label class="modal_label" for="email">Пошта</label>
+                    </div>
+                    <div class="modal_block_input">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input class="modal_input" type="email" name="email" />
+                    </div>
+                </div>
+                <div class="modal_blocks">
+                    <div class="modal_block_label">
+                        <label class="modal_label" for="comments">Коментар</label>
+                    </div>
+                    <textarea name="comments" id="message" placeholder="Введіть текст"></textarea>
+                </div>
+
+                <div class="form-block">
+                    <input type="checkbox" class="modal-form-input-checkbox" name="checkbox" />
+                    <label class="form-block-label" for="checkbox">Погоджуюся з розсилкою та приймаю
+                        <a class="form-block-link" href="#">Умови договору</a></label>
+                </div>
+                <button class="modal_btn">Відправити</button>
             </form>
         </div>
     </div>
@@ -674,6 +703,7 @@
     <script src="./js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> AOS.init();</script>
+    <script src="https://kit.fontawesome.com/f642be2b08.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

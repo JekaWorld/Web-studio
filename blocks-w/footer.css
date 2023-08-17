@@ -102,6 +102,8 @@
 
 .footer_mail {
     padding: 12px;
+    font-family: "Roboto";
+    font-style: normal;
 }
 
 .footer_mail_title {
@@ -143,6 +145,7 @@
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
+    cursor: pointer;
 }
 
 .footer_form_btn i {
